@@ -14,11 +14,13 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-color: #444
 }
 
 .jumbotron {
 	position: relative;
 	background: none;
+     color:white;
 }
 
 .jumbotron:after {
@@ -31,4 +33,9 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.projectHeader
+{
+     color:white;
 }
